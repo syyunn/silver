@@ -26,7 +26,7 @@ df = utils.make_as_pandas_df(dates, content_name='Silver', content_list=silvers)
 
 utils.standard_plot(df, column_name='Silver')
 
-# utils.pickle_object(df, "../data/gold_daily.pkl")
+utils.pickle_object(df, "../data/silver_daily.pkl")
 
 
 if __name__ == "__main__":
